@@ -1,0 +1,7 @@
+button{
+    padding:6px auto 6px auto;
+    margin :auto 5px;
+}
+.active{
+    background-color: grey;
+}
