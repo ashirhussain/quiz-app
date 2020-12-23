@@ -5,7 +5,11 @@ import Question from './components/Question';
 function App() {
   return (
     <div className="App">
-     <Question/>
+  <p id="para">sdfjvnksdjfvnksdjfvnksjdnvksjdfnvksdjfnvskdjfnvksdjfvnksdfjnvksjdfnvk<br/>sdfjnv>sdfjvnksdjfvnksdjfvnksjdnvksjdfnvksdjfnvskdjfnvksdjfvnksdfjnvksjdfnvk<br/>sdfjnv>sdfjvnksdjfvnksdjfvnksjdnvksjdfnvksdjfnvskdjfnvksdjfvnksdfjnvksjdfnvk<br/>sdfjnv>sdfjvnksdjfvnksdjfvnksjdnvksjdfnvksdjfnvskdjfnvksdjfvnksdfjnvksjdfnvk<br/>sdfjnv</p>    
+     <button onClick={()=>{
+document.getElementById('para').style.height="100px";
+     }}>readmore</button>
+     {/* <Question/> */}
      
     </div>
   );
