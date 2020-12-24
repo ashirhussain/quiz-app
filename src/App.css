@@ -1,11 +1,7 @@
 .App {
   text-align: center;
 }
-#para{
-  height:50px;
-  overflow: hidden; 
-  transition:height 500ms ;
-}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
